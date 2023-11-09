@@ -1,0 +1,12 @@
+<html>
+    <head> </head>
+    <body>
+        <form method="get" action="XX">
+        Nome: <input type="text" name="Nome"><br>
+        Idade: <input type="text" name="Idade"><br>
+        Contato: <input type="number" name="celular"><br>
+        Profissao: <input type="text" name="profissao"><br>
+        <input type="submit" value="Enviar"><br>
+        </form>
+    </body>
+</html>
