@@ -1,0 +1,67 @@
+
+<form method="post" action="enviopBD.php">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            align-items: center;
+        }
+
+        form {
+            background-color: #370657;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(43, 2, 61, 0.1);
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required>
+
+        <label for="profissao">Profissão:</label>
+        <input type="text" id="profissao" name="profissao" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
